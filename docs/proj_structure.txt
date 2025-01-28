@@ -1,0 +1,43 @@
+farm-management/
+├── backend/                                # Backend folder (Spring Boot + PHP)
+│   ├── api/                                # Spring Boot API server
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/com/farmmanagement/
+│   │   │   │   │   ├── controller/          # API endpoints (Controllers)
+│   │   │   │   │   ├── dto/                 # Data Transfer Objects (DTOs)
+│   │   │   │   │   ├── model/               # Entity classes (Database models)
+│   │   │   │   │   ├── repository/          # Repository interfaces (Database interactions)
+│   │   │   │   │   ├── service/             # Business logic services
+│   │   │   │   │   ├── config/              # Configuration files (e.g., security, CORS)
+│   │   │   │   │   └── FarmManagementApplication.java  # Main Spring Boot application
+│   │   │   └── resources/
+│   │   │       ├── application.properties   # Spring Boot application configuration
+│   │   │       └── schema.sql               # Optional: Database schema for Spring Boot
+│   │   └── pom.xml                          # Maven dependencies (Spring Boot)
+│   ├── php/                                # PHP backend for auxiliary features
+│   │   ├── public/                         # Public-facing entry point (e.g., .htaccess or index.php)
+│   │   ├── src/                            # Core PHP files
+│   │   │   ├── controllers/                # PHP Controllers (handle incoming requests)
+│   │   │   ├── models/                     # Database models (PHP interaction with DB)
+│   │   │   ├── views/                      # JSON or HTML responses
+│   │   │   ├── helpers/                    # Helper functions or utilities
+│   │   │   └── config/                     # Configuration files (e.g., DB settings)
+│   │   └── vendor/                         # Composer dependencies
+│   └── index.php                           # PHP entry point
+│   ├── database/
+│   │   ├── schema.sql                      # Shared database schema for both backends
+│   │   └── seeds.sql                       # Seed data for initial setup
+├── frontend/                               # Frontend folder (React)
+│   ├── public/                             # Static files (index.html, images)
+│   ├── src/
+│   │   ├── assets/                         # Static files like images, fonts
+│   │   ├── components/                     # Reusable UI components (e.g., Button, Navbar)
+│   │   ├── pages/                          # Page components (Dashboard, CropManagement)
+│   │   ├── services/                       # API calls (using Axios for Spring Boot/PHP)
+│   │   ├── styles/                         # CSS/SCSS files for styling
+│   │   ├── utils/                          # Utility functions (e.g., date formatting, error handling)
+│   │   ├── App.js                          # React entry point
+│   │   └── index.js                        # React root file
+│   └── package.json                        # React dependencies and scripts
+└── README.md                               # Project documentation (overview, setup instructions)

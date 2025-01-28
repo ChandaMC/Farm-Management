@@ -1,0 +1,99 @@
+ Refined Project Scope for the Farm Management System
+
+The Farm Management System will serve as a comprehensive, user-friendly platform where farm owners can manage their farms efficiently. 
+The system will allow users to create accounts, add and manage multiple farms, track resources, and oversee farm operations, 
+including workers, crops, livestock, and finances.
+
+
+
+ Key Features
+
+ 1. User Account Management
+   - Features:
+     - User registration and login.
+     - Email verification (optional).
+     - Password reset functionality.
+     - Profile management.
+     - Dashboard overview of all owned farms.
+
+ 2. Farm Management
+   - Features:
+     - Add and manage multiple farms under one account.
+     - Record farm details (location, size, type, etc.).
+     - Visualize farm layouts or areas using mapping tools (e.g., Leaflet.js).
+
+ 3. Worker Management
+   - Features:
+     - Add workers to a farm.
+     - Assign roles (e.g., Farm Manager, Laborer, Equipment Operator).
+     - Track attendance, work schedules, and performance.
+     - Calculate and manage payroll.
+
+ 4. Crop Management
+   - Features:
+     - Add crops to specific farms.
+     - Plan and monitor planting schedules.
+     - Track growth stages, irrigation, and fertilization.
+     - Record and analyze crop yields.
+
+ 5. Livestock Management (Optional for Later Phases)
+   - Features:
+     - Record animal details (type, health, vaccination history).
+     - Manage breeding schedules.
+     - Track feed and water requirements.
+
+ 6. Financial Management
+   - Features:
+     - Track income and expenses for each farm.
+     - Manage payroll for workers.
+     - Record and analyze financial transactions:
+       - Seed and fertilizer purchases.
+       - Equipment maintenance.
+       - Crop/livestock sales.
+     - Generate detailed financial reports.
+
+ 7. Task and Activity Management
+   - Features:
+     - Create and assign tasks to workers.
+     - Set deadlines and priorities.
+     - Track progress and task completion.
+     - View activity logs for accountability.
+
+ 8. Reports and Analytics
+   - Features:
+     - Generate detailed reports for:
+       - Crop performance.
+       - Worker productivity.
+       - Financial summaries.
+     - Analyze historical data for informed decision-making.
+
+ 9. Weather and Geo-Location Integration
+   - Features:
+     - Show weather forecasts specific to farm locations.
+     - Visualize farm areas using maps for better planning.
+
+
+ User Flow
+
+1. Registration and Setup:
+   - Users sign up and log in to the platform.
+   - Upon login, users can add their farms, entering details like name, location, and size.
+
+2. Farm Management:
+   - Users manage operations for each farm they own.
+   - Navigate between different farms via the dashboard.
+
+3. Worker and Task Management:
+   - Add workers to specific farms.
+   - Assign tasks, monitor performance, and manage payroll.
+
+4. Crop Management:
+   - Record details about crops for each farm.
+   - Track growth stages and yields.
+
+5. Financial Tracking:
+   - Record all financial transactions associated with the farm.
+   - View income, expenses, and reports.
+
+6. Insights and Analytics:
+   - Access dashboards with visualized data to optimize operations.
