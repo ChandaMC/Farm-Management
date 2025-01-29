@@ -4,13 +4,13 @@ farm-management/
 │   │   ├── src/
 │   │   │   ├── main/
 │   │   │   │   ├── java/com/farmmanagement/
-│   │   │   │   │   ├── controller/          # API endpoints (Controllers)
-│   │   │   │   │   ├── dto/                 # Data Transfer Objects (DTOs)
-│   │   │   │   │   ├── model/               # Entity classes (Database models)
-│   │   │   │   │   ├── repository/          # Repository interfaces (Database interactions)
-│   │   │   │   │   ├── service/             # Business logic services
-│   │   │   │   │   ├── config/              # Configuration files (e.g., security, CORS)
-│   │   │   │   │   └── FarmManagementApplication.java  # Main Spring Boot application
+│   │   │   │   │   ├── user/          # API endpoints (Controllers)
+    │   │   │   │   │   ├── dto/                 # Data Transfer Objects (DTOs)
+    │   │   │   │   │   ├── model/               # Entity classes (Database models)
+    │   │   │   │   │   ├── repository/          # Repository interfaces (Database interactions)
+    │   │   │   │   │   ├── service/             # Business logic services
+    │   │   │   │   │   ├── config/              # Configuration files (e.g., security, CORS)
+│   │   │   │   │   └── ApiApplication.java  # Main Spring Boot application
 │   │   │   └── resources/
 │   │   │       ├── application.properties   # Spring Boot application configuration
 │   │   │       └── schema.sql               # Optional: Database schema for Spring Boot
